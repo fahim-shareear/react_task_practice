@@ -11,7 +11,7 @@ const ShowHide = () =>{
     }
     return(
         <>
-            <div className="count">
+            <div className="counts">
                 <button onClick={showNow}>Show</button>
                 <button onClick={hideNow}>Hide</button>
                 {
