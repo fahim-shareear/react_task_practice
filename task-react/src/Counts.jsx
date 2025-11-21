@@ -9,6 +9,9 @@ const Count = () => {
     };
 
     const decreaHandle = () =>{
+        if(count === 0){
+            return
+        }
         const newCount = count - 1;
         setCount(newCount);
     }
